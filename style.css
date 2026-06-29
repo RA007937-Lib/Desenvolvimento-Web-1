@@ -1,0 +1,80 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+header a{
+    margin: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: orange;
+}
+header a:hover{
+    color: red;
+    transition: 0.2s;
+}
+
+#sobre{
+    display: grid;
+    border: 2px solid gray;
+    border-radius: 25px;
+}
+#sobre img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
+}
+h1, h3{
+    color: orange;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#habilidades{
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin: 15px 0;
+}
+#habilidades ul{
+    list-style: none
+}
+
+#projetos{
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+#contato{
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+input{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+button{
+    background-color: orange;
+    border: none;
+}
+button:hover{
+    background-color: red;
+    transition: 0.2s;
+}
